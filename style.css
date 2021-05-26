@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/************* FACILITIES SECTION ************/
+#facilities {
+
+    background: url(assets/down-removebg-preview.png) no-repeat bottom, url(assets/up.png) no-repeat top;
+    background-size: 100% 30%,100% 20%;
+    padding: 70px 0px;
+}
+
+#facilities h1 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 4px 4px 5px #bbbbbb;
+    padding-bottom: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.card-body {
+    text-align: center;
+    height: 180px;
+    
+}
+
+.card-title {
+    color:  #4be986;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+.card-text {
+    color: #333;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
+    margin: 20px 20px;
+}
+
+img {
+    height: 300px;
+}
+
+.inner {
+    overflow: hidden;
+  }
+  
+  .inner img {
+    transition: all 1.2s ease;
+  }
+  
+  .inner:hover img {
+    transform: scale(1.3);
+  }
